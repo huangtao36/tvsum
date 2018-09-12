@@ -1,2 +1,8 @@
 
 do_no_delete.txt
+*.xml
+*.iml
+*.xml
+*.xml
+.idea/vcs.xml
+*.xml
