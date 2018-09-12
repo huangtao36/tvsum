@@ -1,11 +1,16 @@
 # tvsum
+run the code with jupyter
 
 ```
 from load_tvsum_utils import *  
 %pylab inline  
-  
-video_dic = load_tvsum(data_root_path='./', scale=True)  
+```  
 
+```    
+video_dic = load_tvsum(data_root_path='./', scale=True)  
+```  
+
+```  
 for key in video_dic:  
     video_name = key
     fps = video_dic[key]['fps']
